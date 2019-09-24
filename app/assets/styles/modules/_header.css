@@ -5,6 +5,9 @@
     background: url(../../assets/images/girl.png);
     background-position: center;
     background-repeat: no-repeat;
+    font-family:'Catamaran', sans-serif;
+    color: white;
+    
     /* object-fit: contain; */
 
 
@@ -30,10 +33,12 @@
             display: flex;
             align-items:center;
 
+
             & img:first-child {
                 margin-right:34px;
                 width: 26px;
                 height:40px;
+                
             }
             & img:nth-child(2) {
                 margin-right:20px;
@@ -55,7 +60,7 @@
         margin: 0 auto;
 
         &--hero {
-            margin: 60px 0px 16px 0px;
+            margin: 40px 0px 16px 0px;
             /* font-family: Avenir LT Std; */
             font-size: 40px;
             line-height: 50px;
@@ -92,30 +97,30 @@
             display: flex;
             flex-direction:column;
             justify-content:space-between;
-
+            
             
             &-body {
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
-                width: 240px;
+                width: 230px;
                 height: 50px;
                 border-radius: 6px;
                 margin: 6px 0px;
                 background: white;
-                font-family: Avenir LT Std;
+                font-family:'Catamaran', sans-serif;
                 font-size: 15px;
                 line-height: 17px;
                 color: #5C5C5C;
 
                 & input {
-                    width: 85%;
+                    width: 80%;
                     outline:none;
                     border:none;
-                    padding: 10px 10px;
+                    padding: 10px 16px;
                     background: white;
-                    font-family: Avenir LT Std;
-                    font-size: 15px;
+                    font-family:'Catamaran', sans-serif;                    
+                    font-size: 14px;
                     /* line-height: 17px; */
                     color: #5C5C5C;
 
@@ -135,23 +140,59 @@
                 &-text {
                     width: 70%;
                     padding:0px 10px;
+                    
                 }
             }
 
-            &-description span {
-                width: 10px;
-                height: 4px;
-                border-radius: 2px;
-                background: white;
-            }
             
 
 
         }
 
-        &--radios {
+        &--radio {
             display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            margin: 20px 0px 30px 0px;
+
+            &-container {
+                display: flex;
+                align-items:center;
+                justify-content:space-between;
+                font-size: 16px;
+                line-height: 21px;
+
+                /* & input {
+                        position: absolute;
+                        opacity: 0;
+                        cursor: pointer;
+                      } */
+                      
+                &-checkmark {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 60px;
+                        width: 60px;
+                        background-color: #8DC63F;
+                        border-radius: 50%;
+                      }
+                      
+                }
+
+                
+            }
+
+        &--submit{
+                padding: 10px 20px;
+                color: #FFFFFF;
+                border-radius: 5px;
+                background: linear-gradient(179.73deg, #FF5E16 0.87%, #DC5418 205.93%);
+                
+                }
         }
 
-    }
+        
+    
 }

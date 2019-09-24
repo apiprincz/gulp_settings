@@ -1,4 +1,5 @@
 @import 'normalize.css';
 @import 'global/_global.css';
-@import '../styles/modules/_header.css';
-
+@import './modules/_header.css';
+@import './modules/_description.css';
+@import './modules/ucol.css';
