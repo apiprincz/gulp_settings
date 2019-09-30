@@ -30,3 +30,54 @@ h5 {
     line-height: 22px;
     font-weight: 300;
 }
+
+.white-text {
+    color: #ffffff;
+}
+
+.color-text {
+    font-family: Avenir LT Std;
+    line-height: 20px;
+    color: #F39C12;
+}
+
+.green-text {
+    color: #1D3B2D;
+}
+
+.orange-btn {
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background: linear-gradient(179.73deg, #FF5E16 0.87%, #DC5418 205.93%);
+}
+
+.lemon-btn{
+    background: #8DC63F;
+    border-radius: 5px;
+    color: #fff;
+    min-width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    font-family: 'Avenir 03', sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.faq__green--text {
+    font-family: Avenir LT Std;
+    font-size: 34px;
+    line-height: 41px;
+    letter-spacing: 0.02em;
+    color: #2BB673;
+    text-align: center;
+}
+
+.faq {
+    margin: 0 auto;
+}

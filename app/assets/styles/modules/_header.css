@@ -185,11 +185,8 @@
             }
 
         &--submit{
-                padding: 10px 20px;
-                color: #FFFFFF;
-                border-radius: 5px;
-                background: linear-gradient(179.73deg, #FF5E16 0.87%, #DC5418 205.93%);
-                
+            color: #FFFFFF;
+            
                 }
         }
 
