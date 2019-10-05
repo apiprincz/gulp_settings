@@ -1,0 +1,84 @@
+.footer {
+    position: relative;
+    padding: 1px 13vw 3vw;
+    background-color: #1d3b2d;
+
+
+    &__overlay {
+        margin-top: -200px;
+        padding: 3vw 7vw;
+        border-radius: 10px;
+        background: url(../../../assets/images/footerimg.png);
+        background-color: #f0f0f0;
+        background-position: 80% 40%;
+        background-size: 30%;
+        background-repeat: no-repeat;
+        box-shadow: 1px 1px 70px -4px rgba(0, 0, 0,0.35);
+        
+        & img {
+            transform: translateX(100%);
+            padding-bottom: 6px;
+        }
+
+        & h3 {
+            margin-top: 16px;
+            margin-bottom: 16px;
+            font-family: 'Avenir 07', sans-serif;
+            font-size: 30px;
+            line-height: 32px;
+            font-weight: 300;
+            color: #333333;
+        }
+        
+        & h4 {
+            /* font-family: Arial Rounded MT Bold; */
+            font-size: 16px;
+            line-height: 19px;
+            color: #1D3B2D;
+        }
+
+
+        & button{
+            padding: 10px 50px;
+            font-family: 'Avenir LT Std';
+            font-size: 11px;
+            line-height: 13px;
+            letter-spacing: 0.11em;
+        }
+    }
+
+    &__main {
+        
+        display: flex;
+        padding-top: 24px;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 40px;
+
+        &--link {
+            text-decoration: none;
+            padding-right:40px;
+        }
+
+        &--current {
+            color: #FF5E16;
+        }
+
+        &--right span {
+            position: absolute;
+            margin-left: -124px;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-top: 14px;
+            letter-spacing: 3px;
+        }
+    }
+
+    &__copyright {
+        margin-left: -7vw;
+        color: #C4C4C4;
+        font-family: Arial;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
