@@ -3,6 +3,10 @@
     padding: 1px 13vw 3vw;
     background-color: #1d3b2d;
 
+    &__location {
+        margin-top: 200px;
+    }
+
 
     &__overlay {
         margin-top: -200px;

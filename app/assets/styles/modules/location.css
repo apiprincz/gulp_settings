@@ -1,6 +1,7 @@
 .location {
     padding: 4vw 15vw 7.5vw;
     background-color: #f5f5f5;
+    
 
     &__view--btn {
         /* font-family: Avenir LT Std; */
@@ -15,8 +16,10 @@
         margin-bottom: 20px;
         justify-content: space-between;
 
+       
         &--london {
-            background-image: url(../../../assets/images/londonbg.png);
+            background: url(../../../assets/images/londonbg.png);
+    
         }
         &--santorini {
             background-image: url(../../../assets/images/santorinibg.png);
@@ -49,7 +52,7 @@
                 align-items: flex-start;
 
                 &-container {
-                    transform: translateY(20px)
+                    transform: translateY(20px);
                 }
 
                 &-preview {
@@ -88,8 +91,9 @@
             }
 
         }
-        
-        
+           
 
     }
+
+    
 }

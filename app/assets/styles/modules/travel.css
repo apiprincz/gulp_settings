@@ -1,0 +1,12 @@
+.travel{
+
+    margin-bottom: 6vh;
+
+    &__bg {
+
+        height: 80vh;
+        background: url(../../assets/images/travelbg.png);
+    }
+    
+        
+}

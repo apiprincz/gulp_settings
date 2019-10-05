@@ -1,4 +1,5 @@
-import Scripts from './modules/_first';
+import First from './modules/_first';
 
 
-let scripts = new Scripts();
+
+let first = new First();

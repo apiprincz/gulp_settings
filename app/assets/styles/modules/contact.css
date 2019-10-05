@@ -1,0 +1,79 @@
+.contact {
+
+        z-index: 4;
+        width: 74%;
+        height: 80vh;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: #f0f0f0;
+        box-shadow: 1px 1px 70px -4px rgba(0, 0, 0,0.35);
+        display: flex;
+        transform: translateY(-120px);
+
+    &__bg {
+        height: 80vh;
+        background: url(../../assets/images/contactbg.png);
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        
+        & > div {
+            text-align: center;
+        }
+
+        & h1 {
+            /* font-family: Avenir LT Std; */
+            font-size: 40px;
+            line-height: 72px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+        }
+    }
+
+
+    &__form {
+        width: 60%;
+        padding: 6vh;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        padding: 3vw 7vw;
+
+        & input {
+            background: #D8D8D8;
+            height: 6vh;
+        }
+
+        & textarea {
+            background: #D8D8D8;
+
+        }
+
+        & label {
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.02em;
+            color: #000000;
+        }
+
+        & button {
+            width: 200px;
+        }
+    }
+    &__info {
+        background: #1D3B2D;
+        padding: 10vw 10vw 2vw 4vw;
+        
+        & > div {
+            display: flex;
+            align-items:center;
+            margin-bottom:2vh;
+            color:white;
+            /* font-family: Avenir LT Std; */
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.02em;
+        }
+    }
+
+}
